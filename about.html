@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/da5b281476.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu"> 
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="contact.html" >Contact</a></li>
+                   <li><a href="services.html">Services</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+                   <li><a href="certificate.html">Certificate</a></li>
+                   <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"  onclick="openmenu()"></i>
+           </nav>
+
+    <div class="about">
+        
+            <div class="row">
+                <div class="first_column">
+                    <img src="./IMG_20231108_204420.jpg" width="350px" height="400px">
+                </div>
+                <div class="second_column">
+                    <p><span>About me</span><br>
+                        I'm an aspiring programmer with a keen interest in software, web development, and computer science. As a newcomer to this exciting world, I'm eager to learn, grow, and contribute to the ever-evolving tech landscape. My journey has just begun, and this portfolio represents my initial steps in coding and web development. I'm excited to develop my skills and take on new challenges as I progress in my programming career </p>
+                      <div class="about_Section">
+                    <p class="title active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="title" onclick="opentab('Experience')">Experience</p>
+                    <p class="title" onclick="opentab('Education')">Education</p>
+                      </div>
+                      <div class="content active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Design websites</li>
+                            <li><span>Software Engineering</span><br>Design, code, test softwares</li>
+                            <li><span>Teaching</span><br>
+                             Assist in deliverig English lessons to young learners</li>
+                        </ul>
+                      </div>
+                      <div class="content " id="Experience">
+                        <ul>
+                            <li><span>Web developer intern</span><br>AT CodSoft</li>
+                            <li><span>It Trainee</span><br>At Soi Dog Foundation, Phuket</li>
+                            <li><span>Research Assistant</span><br>
+                            Freelance</li>
+                        </ul>
+                      </div>
+                      <div class="content" id="Education">
+                        <ul>
+
+                            <li><span>2023-2023 </span><br>Web development at Coursera</li>
+                            <li><span>2022-2025</span><br>Digital Engineering at Prince of Songkla University, Phuket</li>
+                            <li><span>2017-2020</span><br>English Literature
+                            at Yangon University, Myanmar</li>
+
+                           
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var ttitle=document.getElementsByClassName("title");
+        var ccontent=document.getElementsByClassName("content");
+        function opentab(tabname){
+            for(title of ttitle){
+           title.classList.remove("active-link");
+        }
+        for(content of ccontent){
+        content.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+     <script>
+        const sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+          sidemenu.style.right="0";
+        }
+        function closemenu(){
+          sidemenu.style.right="-200px";
+        }
+      </script>
+      
+</body>
+</html>

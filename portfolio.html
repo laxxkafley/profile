@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/da5b281476.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu"> 
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="contact.html" >Contact</a></li>
+                   <li><a href="services.html">Services</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+                   <li><a href="certificate.html">Certificate</a></li>
+                   <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"  onclick="openmenu()"></i>
+           </nav>
+           <div class="portfolio">
+            <div class="container">
+                <h2 class="mywork">My Projects</h2>
+                <div class="all_work">
+                    <div class="works">
+                      <img src="https://www.twincities.com/wp-content/uploads/2022/05/Summer_Film_Preview_71939.jpg">
+                  
+                    <div class="screens">
+                        <h3>Web for searching Dogs data with Vuejs</h3>
+                        <p>Created a simple website related with dogs_database as an IT trainee at Soi Dog Foundation, phuket. It makes API call to my backend and user can search the dogs based on name, sex or birth_date in the search bar. User must connect to organization vpn to be able to load the images.</p>
+                        <div class="coursera"><a href="https://soi-dog-frontend.vercel.app/">Example work Here!</a></div>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                        <div class="works">
+                            <img src="https://www.letsphuket.com/wp-content/uploads/phuket1.jpg">
+                            <div class="screens">
+                                <h3>Phuket Merchandise Website</h3>
+                                <p>University project with group of 3.The website shows you some famous attractions of Thailand,Phuket. With features like review and rating, user can filter results based on most popular destinations. Each member was responsible for two features while making the web.</p>
+                                <a href="#">
+                                    <div class="coursera"><a href=" https://phuket-frontend-finally.vercel.app/">Example work Here!</a></div>
+                                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> 
+
+    
+                                </a>
+                            </div>
+                        </div>
+                        
+                            <div class="works">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/How_to_Learn_Web_Designing.jpg">
+                                <div class="screens">
+                                    <h3>Restaurent Web design</h3>
+                                    <p>Learned and completed a Restaurent website design for coursera online course. Focused on completing menu page and meny details</p>
+                                    <div class="coursera"><a href="https://laxxkafley.github.io/Module5solution/assignment5/assignment5-solution-starter/index.html#">Example work Here!</a></div>
+                                    <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                                </div>
+                                
+                            </div>
+                </div>
+               <a href="#" class="btn"> See more</a>
+            </div>
+           </div>
+           <script>
+            const sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+              sidemenu.style.right="0";
+            }
+            function closemenu(){
+              sidemenu.style.right="-200px";
+            }
+          </script>
+          
+</html>

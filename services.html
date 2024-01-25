@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    
+    <title>Services</title>
+    <script src="https://kit.fontawesome.com/da5b281476.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu"> 
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="contact.html" >Contact</a></li>
+                   <li><a href="services.html">Services</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+                   <li><a href="certificate.html">Certificate</a></li>
+                   <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"  onclick="openmenu()"></i>
+           </nav>
+
+
+    <div class="services"> 
+        
+            <h1 class="title2">My services</h1>
+            <div class="all_services">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                <h4>Web Design</h4>
+                <p>I offer a full spectrum of services to bring your digital vision to life. From building captivating websites that leave a lasting impression to redesigning and optimizing existing platforms, I specialize in creating user-friendly, mobile-responsive, and visually engaging designs.</p>
+                <a href="#">Learn more</a>
+                </div>
+
+                <div>
+
+                    <i class="fas fa-app-store"></i>
+                    <h4>Application Design</h4>
+                    <p>In the world of application design, I'm passionate about creating user-friendly and visually appealing mobile and web applications. I focus on understanding users' needs and crafting designs that are intuitive and engaging. From wireframing to user interfaces, I enjoy every step of the design process. </p>
+                    <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i  class="fas fa-crop-alt"></i>
+                        
+                        <h4>Software Testing</h4>
+                        <p>In the world of software testing, I'm enthusiastic about learning and honing my skills to ensure the quality and reliability of applications and systems. With a passion for detail, I'm eager to specialize in various testing methodologies, from manual to automated testing. </p>
+                        <a href="#">Learn more</a>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        const sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+          sidemenu.style.right="0";
+        }
+        function closemenu(){
+          sidemenu.style.right="-200px";
+        }
+      </script>
+      
+</body>
+</html>

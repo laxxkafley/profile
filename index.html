@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> 
+  
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/da5b281476.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    
+    <div class="header">
+         <div class="container">
+            <nav>
+                 <img src="" class="logo">
+                 <ul id="sidemenu"> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="certificate.html">Certificate</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fas fa-bars"  onclick="openmenu()"></i>
+            </nav>
+
+            <div id="head_text">
+            
+             <h1>Hi! I am jasmine</h1>
+              <h2> A programmer who is passionate about programming, and I see it as a never-ending journey of problem-solving<br> and creativity, where every line of code is an opportunity to make the digital world a better place.<br> I'm excited to share my coding adventures and projects with you in my portfolio.</h2>
+            </div>
+    </div>
+    <script>
+      const sidemenu=document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+    </script>
+   
+</body>
+</html>
