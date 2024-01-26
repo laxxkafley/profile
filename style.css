@@ -4,7 +4,7 @@
 body{
     background:lightslategray;
     background-size: cover;
-    background-image: url("./Untitled.jpg");
+    background-image: url("./photo-1518655048521-f130df041f66.jpg");
 }
 html{
     scroll-behavior: smooth;
@@ -39,7 +39,7 @@ nav{
     list-style: none;
 }
 nav ul li a{
-    color:white;
+    color:black;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -61,7 +61,7 @@ nav ul li a::after{
 text-align: left;
 font-size: 18px;
 margin-bottom: -10px;
-color:white;
+color:black;
 margin-bottom: 50px;
 line-height: 20pt;
 } 
@@ -69,7 +69,7 @@ line-height: 20pt;
 h1,h2,h4{
 
     text-align: center;
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
@@ -78,7 +78,7 @@ h1,h2,h4{
 .about{
     margin-top: -50px;
     
-    color: white;
+    color: black;
 }
 .row{
     display:flex; 
@@ -108,12 +108,12 @@ h1,h2,h4{
 
 
     font-size: 30px;
-    color:white;
+    color:black;
     margin-bottom: -20px;
 }
 
 .title{
-    color: white;
+    color: black;
     margin-right: 20px;
     font-weight: 500;
     cursor: pointer;
@@ -125,7 +125,7 @@ h1,h2,h4{
         position:absolute;
         width:0;
        height: 4px;
-        background: wheat;
+        background: purple;
         left: 0;
         bottom: -5px;
         transition: 0.5s;
@@ -138,7 +138,7 @@ h1,h2,h4{
     list-style: none;
     margin: 10px 0;
     font-size:14px;
-    color: white;
+    color: black;
     
 
 }
@@ -149,7 +149,7 @@ h1,h2,h4{
 }
 .content ul li span{
 
-    color: lightblue;
+    color: black;
     font-size: 14px;
 }
 
@@ -186,7 +186,7 @@ h1,h2,h4{
 text-align: center;
 font-size: 18px;
 margin-bottom: -10px;
-color:white;
+color:black;
 margin-bottom: 50px;
 line-height: 20pt;
 /* border-radius: 40%;
@@ -209,7 +209,7 @@ background: grey; */
 }
 .all_services div:hover{
     
-    background:linear-gradient( rgba(0, 0, 0, 0.6),steelblue, palevioletred);
+    background:linear-gradient( rgba(0, 0, 0, 0.6),steelblue, purple);
     transform: translateY(-10px);
     /* to make the services box change color and move when i hover over
 */
@@ -267,11 +267,11 @@ background: grey; */
     font-weight: 500;
     margin-bottom: 20px;
     font-size: 18px;
-    color: white;    
+    color: black;    
 }
 .screens a{
     margin-top: 20px;
-    color: maroon;
+    color: purple;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -308,7 +308,7 @@ background: grey; */
     padding: 14px 50px;
     border-radius: 6px;
     
-    color: white;
+    color: black;
     transition: 0.5s;
    
     
@@ -322,14 +322,14 @@ contact */
 
 .title3{
     font-size: 30px;
-    color: white;
+    color: black;
      margin-left: 0;
    margin-top: -10px;
    margin-bottom: 0;
 }
 .left_column{
     flex-basis:35%;
-    color: white;
+    color: black;
     
 }
 
@@ -354,7 +354,7 @@ contact */
     transition: transform 0.5s;
 }
 .social_media a:hover{
-    color: palevioletred;
+    color: purple;
     transform: translateY(-5px);
 
     /* to move the icon up by 5 px */
@@ -444,7 +444,7 @@ nav ul{
     color: black;
 }
 nav .fas{
-    color: white;
+    color: black;
 }
 #head_text{
     flex-basis: 100%;
@@ -525,7 +525,7 @@ flex-basis: 100%;
 .certiTitle{
     font-size: 30px;
     text-align: center;
-    color: white;
+    color: black;
     
 }
 .coursera{
